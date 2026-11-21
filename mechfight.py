@@ -537,6 +537,7 @@ def run(make_bot: Any) -> None:
             elif kind == "obs":
                 latest = msg
             elif kind == "end":
+                log("END place=%s kills=%s" % (msg.get("place"), msg.get("kills")))   # added: final result
                 return
         if latest is None:
             continue
