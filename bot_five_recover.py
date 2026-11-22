@@ -381,7 +381,7 @@ FEATURES = {
     "map_cache": True,        # load validated precomputed walkability grid when available
     "los_gate": True,         # block direct-fire weapons when the coarse map ray is obstructed
     "recover_mode": True,     # disengage at low HP, scan 360 degrees, then recover if safe
-    "hunt_mode": False,       # override recovery and pursue enemies aggressively
+    "hunt_mode": True,       # override recovery and pursue enemies aggressively
 }
 
 # Runtime overrides allow clean ablations without editing the bot source.
