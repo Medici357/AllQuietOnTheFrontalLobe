@@ -380,7 +380,7 @@ FEATURES = {
     "record": True,           # one short status line in the debug drawing (and stderr if MECH_LOG is set)
     "map_cache": False,        # load validated precomputed walkability grid when available
     "los_gate": False,         # block direct-fire weapons when the coarse map ray is obstructed
-    "recover_mode": True,     # disengage at low HP, scan 360 degrees, then recover if safe
+    "recover_mode": False,     # disengage at low HP, scan 360 degrees, then recover if safe
     "hunt_mode": False,       # override recovery and pursue enemies aggressively
 }
 
