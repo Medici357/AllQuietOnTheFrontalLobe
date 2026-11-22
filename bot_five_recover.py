@@ -378,10 +378,10 @@ FEATURES = {
     "stagger_hit": True,      # after being hit, pick a side and hold it 0.4-0.8 s instead of re-rolling every hit
     "regen_retreat": False,   # (experimental) back off at 30% HP from a healthier enemy; HP regrows 45/s after 5 s unhurt
     "record": True,           # one short status line in the debug drawing (and stderr if MECH_LOG is set)
-    "map_cache": True,        # load validated precomputed walkability grid when available
+    "map_cache": False,        # load validated precomputed walkability grid when available
     "los_gate": True,         # block direct-fire weapons when the coarse map ray is obstructed
     "recover_mode": True,     # disengage at low HP, scan 360 degrees, then recover if safe
-    "hunt_mode": True,       # override recovery and pursue enemies aggressively
+    "hunt_mode": False,       # override recovery and pursue enemies aggressively
 }
 
 # Runtime overrides allow clean ablations without editing the bot source.
